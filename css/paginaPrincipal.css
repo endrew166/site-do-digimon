@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #aacfcf;
+}
+
+div {
+    font-size: 23px;
+    font-family: cursive;
+    color: #1c1c1c
+}
+
+.topo {
+    border-radius: 20px;
+    border: solid 0px;
+    padding: 5px 15px;
+    background-image: url(../imagens/fundo.png);
+    display: block;
+    border: solid auto;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: #8763a5;
+    box-shadow: 4px 4px 4px #aacfcf;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+    grid-row-gap: 10px;
+    grid-template-rows: 20vh 20vh 20vh;
+    padding: 10px;
+}
+
+div[class^="Item"] {
+    border: 1px solid black;
+}
+
+.Item1 {
+    grid-column-start: 1 /span 3;
+    background-color: #f76a8c;
+}
+
+.Item2 {
+    grid-row: 2/4;
+    height: 350px;
+    background-image: url(../imagens/anime.png);
+    display: block;
+    border: solid auto;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: bottom right;
+    background-color: #275eb8;
+    background-repeat: no-repeat;
+}
+
+.Item3 {
+    grid-row: 2/4;
+    grid-column: 2/2;
+    height: 350px;
+    background-image: url(../imagens/paginaPrinciapl.jpg);
+    display: block;
+    border: solid auto;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: bottom right;
+}
+
+#entrar {
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    color: gray;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #aacfcf;
+    ;
+}
+
+.Item5 {
+    background-color: #f8dc88;
+}

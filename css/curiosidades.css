@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: #aacfcf;
+    font-size: 23px;
+    font-family: cursive;
+    color: #1c1c1c
+
+}
+#entrar{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    color: gray;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #aacfcf;;
+    }
+

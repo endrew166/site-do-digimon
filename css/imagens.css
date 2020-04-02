@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+   
+}
+.tudo {
+    display: grid;
+    grid-template-rows: auto auto auto;
+
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 4px;
+}
+
+.item1 {
+    grid-row: 1;
+    grid-column: 1/16;
+}
+
+.item2 {
+    grid-row: 1;
+    grid-column: 16/31;
+}
+
+.item3 {
+    grid-row: 1;
+    grid-column: 31/46;
+}
+
+.item4 {
+    grid-row: 1;
+    grid-column: 46/61;
+}
+
+
+.item5 {
+    grid-row: 2;
+    grid-column: 1/13;
+}
+
+.item6 {
+    grid-row: 2;
+    grid-column: 13/25;
+}
+
+.item7 {
+    grid-row: 2;
+    grid-column: 25/37;
+}
+
+.item8 {
+    grid-row: 2;
+    grid-column: 37/49;
+}
+
+.item9 {
+    grid-row: 2;
+    grid-column: 49/61;
+}
+
+
+.item10 {
+    grid-row: 3;
+    grid-column: 1/21;
+}
+
+.item11 {
+    grid-row: 3;
+    grid-column: 21/41;
+}
+
+.item12 {
+    grid-row: 3;
+    grid-column: 41/61;
+}
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#entrar{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    color: gray;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #aacfcf;;
+  
+}

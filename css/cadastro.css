@@ -1,0 +1,46 @@
+body {
+    border: solid auto;
+    background-image: url("../imagens/cadastro.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #febcaa;
+    background-position: left bottom;
+}
+
+.container {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.nome,.em, .email {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid 0px;
+    box-shadow: 3px 3px 3px #f1a894ee;
+    padding: 5px 15px;
+
+}
+
+
+
+#enviar_cadastro, #voltar {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    color: gray;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #f1a894ee;
+    
+}
+
